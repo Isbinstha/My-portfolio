@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: url(BG2.jpg) no-repeat;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+main{
+    position: 0;
+    width: 100%;
+    height: 100vh;
+}
+.rounded-image {
+    height: 80px;
+    width: 80px;
+    border: 5px solid #47474386;
+    border-radius: 50%;
+  }
+
+nav{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p1{
+    margin-top:0%; 
+    margin-right: 30%;
+    font-size: 35px;
+    font-style: none;
+    font-weight: bold;
+    float: left;
+    color: rgb(241, 233, 233);
+    cursor: pointer;
+}
+
+
+nav ul li{
+    margin-top: 0%;
+    font-size:22px;
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    /* color:rgba(229, 31, 240, 0.326); */
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: rgba(229, 31, 240, 0.326);
+    /* color: rgb(11, 66, 125); */
+}
+
+.heading p{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    color: rgba(239, 69, 248, 0.342);
+    cursor: pointer;
+}
+
+.heading p span{
+    color:rgba(47, 113, 244, 0.341);
+}
+
+.heading p span:hover{
+    color:rgba(244, 165, 47, 0.341);
+}
+
+.about{
+    margin-top: 5%;
+    width: 100%;
+    display:flex;
+    
+}
+
+.image{
+    width:50%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.image img {
+    border: 8px solid rgba(9, 47, 237, 0.589);
+    border-radius: 30px; 
+    width: 100%;
+    height: 100%;
+    position: relative; 
+    bottom: 0;
+    cursor: pointer;
+    transform: translateX(-10%);
+    transition: bottom 1s, right 1s;
+    margin-left: 6%;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.505);
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 2%;
+    width:50%;
+    margin-right: 30px;
+    float: right;
+    
+}
+
+.text h2{
+    color: rgba(245, 114, 6, 0.552);
+    text-decoration: underline;
+    font-size: 75px;
+    text-transform: capitalize;
+}
+
+
+.text p{
+    color: rgba(240, 235, 240, 0.73);
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    font-size: 20px;
+} 
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2%; 
+}
